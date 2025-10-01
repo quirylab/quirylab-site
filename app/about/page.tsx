@@ -4,7 +4,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GrFormNextLink } from "react-icons/gr";
 import { IoMdHourglass } from "react-icons/io";
-
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Quirylab - アバウト",
+  description: "QuiryLabについてです",
+};
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white">

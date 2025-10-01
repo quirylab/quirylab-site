@@ -1,6 +1,10 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Quirylab - プライバシーポリシー",
+  description: "QuiryLabのプライバシーポリシーです",
+};
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen flex flex-col bg-white">

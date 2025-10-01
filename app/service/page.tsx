@@ -3,6 +3,12 @@ import Footer from "@/components/footer";
 import { IoMdHourglass } from "react-icons/io";
 import { IoMdMail, IoMdListBox } from "react-icons/io";
 import { FaDatabase } from "react-icons/fa";
+
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Quirylab - サービス",
+  description: "QuiryLabの提供サービスです",
+};
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">

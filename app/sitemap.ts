@@ -21,21 +21,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: "https://quirylab.com/articles-of-incorporation",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.5,
-    },
-    {
       url: "https://quirylab.com/terms-of-service",
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "yearly",
       priority: 0.5,
     },
     {
       url: "https://quirylab.com/privacy-policy",
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "yearly",
       priority: 0.5,
     },
   ];

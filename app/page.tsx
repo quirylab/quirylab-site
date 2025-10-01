@@ -10,6 +10,11 @@ import {
 } from "@/components/ui/card";
 import { GrFormNextLink } from "react-icons/gr";
 import { IoIosMore, IoMdHourglass } from "react-icons/io";
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Quirylab - ホーム",
+  description: "QuiryLabの公式サイトです",
+};
 
 export default function Home() {
   return (
