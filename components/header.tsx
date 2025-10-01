@@ -80,9 +80,8 @@ export default function Home() {
                 </nav>
                 <p className="text-gray-300 text-base mt-2">規約</p>
                 <nav className="flex flex-row sm:flex-col items-center text-sm m-0 p-0 text-gray-400 gap-2">
-                  <Link href="">定款</Link>
-                  <Link href="">利用規約</Link>
-                  <Link href="">プライバシーポリシー</Link>
+                  <Link href="/terms-of-service">利用規約</Link>
+                  <Link href="/privacy-policy">プライバシーポリシー</Link>
                 </nav>
               </div>
             </div>

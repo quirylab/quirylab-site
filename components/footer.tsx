@@ -48,7 +48,6 @@ export default function Home() {
         <div className="flex flex-col gap-2 p-2">
           <h1 className="font-bold text-xl">Legal</h1>
           <nav className="flex flex-col gap-1 text-sm text-gray-300">
-            <Link href="/articles-of-incorporation">定款</Link>
             <Link href="/terms-of-service">利用規約</Link>
             <Link href="/privacy-policy">プライバシーポリシー</Link>
           </nav>
