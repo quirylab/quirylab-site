@@ -49,27 +49,27 @@ export default function PrivacyPolicy() {
               <p className="leading-relaxed mb-3">
                 弊団体が個人情報を収集・利用する目的は、以下のとおりです。
               </p>
-              <ul className="space-y-2 ml-6 list-none">
+              <ul className="space-y-2 ml-6 list-disc">
                 <li className="leading-relaxed">
-                  ・弊団体サービスの提供・運営のため
+                  弊団体サービスの提供・運営のため
                 </li>
                 <li className="leading-relaxed">
-                  ・ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）
+                  ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）
                 </li>
                 <li className="leading-relaxed">
-                  ・ユーザーが利用中のサービスの新機能、更新情報、キャンペーン等及び弊団体が提供する他のサービスの案内のメールを送付するため
+                  ユーザーが利用中のサービスの新機能、更新情報、キャンペーン等及び弊団体が提供する他のサービスの案内のメールを送付するため
                 </li>
                 <li className="leading-relaxed">
-                  ・メンテナンス、重要なお知らせなど必要に応じたご連絡のため
+                  メンテナンス、重要なお知らせなど必要に応じたご連絡のため
                 </li>
                 <li className="leading-relaxed">
-                  ・利用規約に違反したユーザーや、不正・不当な目的でサービスを利用しようとするユーザーの特定をし、ご利用をお断りするため
+                  利用規約に違反したユーザーや、不正・不当な目的でサービスを利用しようとするユーザーの特定をし、ご利用をお断りするため
                 </li>
                 <li className="leading-relaxed">
-                  ・ユーザーにご自身の登録情報の閲覧や変更、削除、ご利用状況の閲覧を行っていただくため
+                  ユーザーにご自身の登録情報の閲覧や変更、削除、ご利用状況の閲覧を行っていただくため
                 </li>
                 <li className="leading-relaxed">
-                  ・上記の利用目的に付随する目的
+                  上記の利用目的に付随する目的
                 </li>
               </ul>
             </section>
@@ -93,12 +93,12 @@ export default function PrivacyPolicy() {
               <p className="leading-relaxed mb-3">
                 弊団体は、次に掲げる場合を除いて、あらかじめユーザーの同意を得ることなく、第三者に個人情報を提供することはありません。ただし、個人情報保護法その他の法令で認められる場合を除きます。
               </p>
-              <ul className="space-y-2 ml-6 list-none">
+              <ul className="space-y-2 ml-6 list-disc">
                 <li className="leading-relaxed">
-                  ・人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難であるとき
+                  人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難であるとき
                 </li>
                 <li className="leading-relaxed">
-                  ・国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき
+                  国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき
                 </li>
                 <li className="leading-relaxed">
                   ・予め次の事項を告知あるいは公表し、かつ弊団体が個人情報保護委員会に届出をしたとき
@@ -116,15 +116,15 @@ export default function PrivacyPolicy() {
               <p className="leading-relaxed mt-4 mb-3">
                 前項の定めにかかわらず、次に掲げる場合には、当該情報の提供先は第三者に該当しないものとします。
               </p>
-              <ul className="space-y-2 ml-6 list-none">
+              <ul className="space-y-2 ml-6 list-disc">
                 <li className="leading-relaxed">
-                  ・弊団体が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合
+                  弊団体が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合
                 </li>
                 <li className="leading-relaxed">
-                  ・合併その他の事由による事業の承継に伴って個人情報が提供される場合
+                  合併その他の事由による事業の承継に伴って個人情報が提供される場合
                 </li>
                 <li className="leading-relaxed">
-                  ・個人情報を特定の者との間で共同して利用する場合であって、その旨並びに共同して利用される個人情報の項目、共同して利用する者の範囲、利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について、あらかじめ本人に通知し、または本人が容易に知り得る状態に置いた場合
+                  個人情報を特定の者との間で共同して利用する場合であって、その旨並びに共同して利用される個人情報の項目、共同して利用する者の範囲、利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について、あらかじめ本人に通知し、または本人が容易に知り得る状態に置いた場合
                 </li>
               </ul>
             </section>
@@ -136,15 +136,15 @@ export default function PrivacyPolicy() {
               <p className="leading-relaxed mb-3">
                 弊団体は、本人から個人情報の開示を求められたときは、本人に対し、遅滞なくこれを開示します。ただし、開示することにより次のいずれかに該当する場合は、その全部または一部を開示しないこともあり、開示しない決定をした場合には、その旨を遅滞なく通知します。
               </p>
-              <ul className="space-y-2 ml-6 list-none">
+              <ul className="space-y-2 ml-6 list-disc">
                 <li className="leading-relaxed">
-                  ・第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
+                  第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
                 </li>
                 <li className="leading-relaxed">
-                  ・弊団体の業務の適正な実施に著しい支障を及ぼすおそれがある場合
+                  弊団体の業務の適正な実施に著しい支障を及ぼすおそれがある場合
                 </li>
                 <li className="leading-relaxed">
-                  ・その他法令に違反することとなる場合
+                  その他法令に違反することとなる場合
                 </li>
               </ul>
               <p className="leading-relaxed mt-4">
@@ -233,14 +233,14 @@ export default function PrivacyPolicy() {
                 <p className="leading-relaxed mb-2">
                   クッキーによってユーザーが送信する情報:
                 </p>
-                <ul className="ml-6 space-y-1 mb-3">
+                <ul className="ml-6 space-y-1 mb-3 list-disc">
                   <li>
-                    ・インターネット通信に通常用いられるシステム、デバイス、ネットワーク、通信に関する情報
+                    インターネット通信に通常用いられるシステム、デバイス、ネットワーク、通信に関する情報
                   </li>
-                  <li>・位置情報</li>
-                  <li>・サイト・アプリ上での行動に関するデータ</li>
-                  <li>・閲覧ページに関するデータ</li>
-                  <li>・ユーザー識別子（cookie、端末識別子等）</li>
+                  <li>位置情報</li>
+                  <li>サイト・アプリ上での行動に関するデータ</li>
+                  <li>閲覧ページに関するデータ</li>
+                  <li>ユーザー識別子（cookie、端末識別子等）</li>
                 </ul>
                 <p className="leading-relaxed mb-2">
                   詳細はGoogleのウェブサイトをご参照ください。
