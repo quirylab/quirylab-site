@@ -30,7 +30,7 @@ export default function Home() {
           <Link href={"/service"}>
             <Button
               variant="outline"
-              className="border-2 border-gray-900 bg-white text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
+              className="px-6 py-2 text-base font-semibold bg-white hover:bg-gray-200 text-gray-800 border border-gray-300 flex items-center gap-2"
             >
               詳しく見る
               <GrFormNextLink className="ml-1" />
