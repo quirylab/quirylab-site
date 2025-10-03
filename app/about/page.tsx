@@ -28,12 +28,9 @@ export default function Home() {
             一般向けやメンバー向けにサービスを提供しています。そのサービスを使用し、自由に好きな分野を模索することができます
           </p>
           <Link href={"/service"}>
-            <Button
-              variant="outline"
-              className="border-2 border-gray-900 bg-white text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
-            >
+            <Button className="group px-8 py-3 text-base font-semibold bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-200 hover:border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2">
               詳しく見る
-              <GrFormNextLink className="ml-1" />
+              <GrFormNextLink className="group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
           </Link>
         </div>

@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -28,14 +29,23 @@ export default function Home() {
           自由に模索し、情報共有できるコミュニティです！あなたの参加をぜひお待ちしています！
         </p>
         <div className="flex gap-4 justify-center mt-4">
-          <Button className="px-6 py-2 text-base font-semibold hover:bg-gray-800 text-gray-200 border border-gray-300 flex items-center gap-2">
-            参加する
-            <GrFormNextLink />
-          </Button>
-          <Button className="px-6 py-2 text-base font-semibold bg-white hover:bg-gray-200 text-gray-800 border border-gray-300 flex items-center gap-2 ">
-            詳しく見る
-            <GrFormNextLink />
-          </Button>
+          <a
+            href="https://discord.gg/vJ6kf8SnYm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="group px-8 py-3 text-base font-semibold bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white border-0 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2">
+              参加する
+              <GrFormNextLink className="group-hover:translate-x-1 transition-transform duration-300" />
+            </Button>
+          </a>
+
+          <Link href="/about">
+            <Button className="group px-8 py-3 text-base font-semibold bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-200 hover:border-gray-300 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2">
+              詳しく見る
+              <GrFormNextLink className="group-hover:translate-x-1 transition-transform duration-300" />
+            </Button>
+          </Link>
         </div>
       </section>
       <section className="mt-20 p-8 w-full flex flex-col items-center text-center gap-8 bg-white border-t shadow-sm">
